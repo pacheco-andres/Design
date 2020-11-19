@@ -1,0 +1,186 @@
+/* Primary colors */
+$cyan: hsl(180, 66%, 49%);
+$dark-violet: hsl(257, 27%, 26%);
+/* Secondary */
+$red: hsl(0, 87%, 67%);
+/* Neutral */
+$gray: hsl(0, 0%, 75%);
+$grayish-violet: hsl(257, 7%, 63%);
+$very-dark-blue: hsl(255, 11%, 22%);
+$vary-dark-violet: hsl(260, 8%, 14%);
+$athens-gray: #F0F1F6;
+$santas-gray: #9F9EA3;
+$baltic-sea: #322E3B;
+$black-white: #FFFFFB;
+
+h1{
+  font-size: 31px;
+}
+
+.body{
+  margin: 0px;
+  padding: 0px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 87px;
+} 
+
+.img_bag{
+  background-size: cover;
+  background-position: left;
+  height: 287px;
+  background-repeat: no-repeat;
+  margin-left: 3%;
+  width: 100%;
+  background-image:url("images/bg-header-desktop.png")
+}
+
+.logo{
+  display: block;
+  margin: auto;
+}
+
+.history{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  .clipboard{
+    font-size: 14px;
+    line-height: 33px;
+    color: $grayish-violet;
+    padding-bottom: 21px;
+  }
+}
+
+.buttons{
+  float:none;
+  text-align:center;
+  margin-bottom: 100px;
+  .button_mac{
+    width: 153px;
+    height: 38px;
+    border-radius: 35px;
+    background-color: mediumseagreen;
+    border: transparent;
+    color: white;
+  }
+  .button_ios{
+    width: 153px;
+    height: 38px;
+    border-radius: 35px;
+    background-color: mediumturquoise;
+    color: white;
+    border: transparent;
+  }
+}
+
+.quick-search-div{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: $grayish-violet;
+  .h2{
+    font-family: 'Poppins', sans-serif;
+    .padding-top{
+      padding-top: 125px;
+    }
+  }
+}
+
+.keep-track{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.access-clibboard{
+  text-align: center;
+}
+
+.img-acces{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.icon-supercharge{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 87px;
+  padding-top: 67px;
+  .icon{
+    display:block;
+    margin:auto;
+  }
+}
+
+.title-icon{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-icon{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: $grayish-violet;
+  text-align: center;
+}
+
+.business-icons{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 92px
+}
+
+.bussiness-icons-dimention{
+  width: 115px;
+  height: 38px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background: gainsboro;
+}
+
+.logo-footer{
+  height: 42px;
+  width: 40px;
+  padding-top: 20px;
+}
+
+.footer-text{
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: $grayish-violet;
+}
+
+.footer-faqs{
+  margin-right: 74px;
+}
+
+.social-networks{
+  width: 18px;
+  height: 25px;
+  padding-top: 20px;
+
+}
+.margin-right{
+  margin-right: 23px;
+}
+
+.pointer {
+  cursor: pointer; 
+}
+
+.pointer:hover {
+  color: $cyan;
+}
